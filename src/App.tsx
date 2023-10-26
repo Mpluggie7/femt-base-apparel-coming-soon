@@ -81,7 +81,7 @@ function App() {
                 <img src="./images/icon-arrow.svg" alt="icon-arrow" />
               </button>
               {errors.email && (
-                <div className="iconError absolute top-3 right-[22%] md:right-[27%]">
+                <div className="iconError absolute top-3 right-[22%] md:right-[27%] lg:right-[20%]">
                   <img src="./images/icon-error.svg" alt="icon-error" />
                 </div>
               )}
