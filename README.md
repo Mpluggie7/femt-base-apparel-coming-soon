@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [femt-base-apparel-coming-soon](https://mpluggie7.github.io/base-apparel-coming-soon/)
+- Live Site URL: [femt-base-apparel-coming-soon](https://mpluggie7.github.io/femt-base-apparel-coming-soon/)
 
 ## My process
 
