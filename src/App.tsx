@@ -65,26 +65,30 @@ function App() {
               <label
                 htmlFor="email"
                 className="
-              absolute text-sm text-[var(--Desaturated-Red)] font-light duration-300 transform 
-              top-0 left-4 scale-75 -translate-y-1/2 z-10 px-2 origin-[0] bg-white
-              peer-placeholder-shown:top-1/2 peer-placeholder-shown:scale-100
-              peer-focus:top-0 peer-focus:scale-75
-              "
+                absolute text-sm text-[var(--Desaturated-Red)] font-light duration-300 transform
+                top-2 left-5 scale-75 -translate-y-1/2 z-10 px-2 origin-[0]
+                peer-placeholder-shown:top-1/2 peer-placeholder-shown:scale-100
+                peer-focus:top-2 peer-focus:scale-75
+                "
               >
                 Email Address
               </label>
-              <button
-                type="submit"
-                className={`bgArrow absolute top-0 right-0 w-[60px] md:w-[90px] h-full rounded-full 
+
+              <div className="absolute top-0 right-0 h-full">
+                <button
+                  type="submit"
+                  className={`bgArrow w-[60px] md:w-[90px] h-full rounded-full 
                 flex justify-center items-center cursor-pointer`}
-              >
-                <img src="./images/icon-arrow.svg" alt="icon-arrow" />
-              </button>
-              {errors.email && (
-                <div className="iconError absolute top-3 right-[22%] md:right-[27%] lg:right-[20%]">
-                  <img src="./images/icon-error.svg" alt="icon-error" />
-                </div>
-              )}
+                >
+                  <img src="./images/icon-arrow.svg" alt="icon-arrow" />
+                </button>
+                {errors.email && (
+                  <div className="iconError absolute top-3 -left-8">
+                    <img src="./images/icon-error.svg" alt="icon-error" />
+                  </div>
+                )}
+              </div>
+
               {errors.email && (
                 <div className="text-sm text-[var(--Soft-Red)] my-2 pl-6">
                   Please provide a valid email
